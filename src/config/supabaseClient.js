@@ -1,0 +1,2 @@
+// Re-export from canonical location — do not add logic here
+export { supabase, isSupabaseConfigured } from '../lib/supabase';

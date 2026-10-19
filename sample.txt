@@ -1,0 +1,8 @@
+npm run metrics
+
+
+
+npx @sonar/scan `
+  "-Dsonar.host.url=http://localhost:9000" `
+  "-Dsonar.token=$env:SONAR_TOKEN" `
+  "-Dsonar.projectKey=Campus-Placement-Intelligence-Platform"
